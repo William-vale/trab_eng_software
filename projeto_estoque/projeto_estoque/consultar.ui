@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>433</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>382</width>
+     <height>415</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(114, 159, 207);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>101</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>CONSULTAR</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>66</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Categoria:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cb_categoria2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>361</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(162, 214, 255);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>'Pisos e revestimentos'</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>'Portas e janelas'</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>'Tintas'</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>'Banheiro'</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>'Cozinha'</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pB_voltar">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>378</y>
+      <width>111</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>VOLTAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pB_consultar">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>378</y>
+      <width>109</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 255);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>CONSULTAR</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tabela1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>361</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>Nome</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>categoria</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>preco_compra</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>preco_venda</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>quantidade</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>codigo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>descricao</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

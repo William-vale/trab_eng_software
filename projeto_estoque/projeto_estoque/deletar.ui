@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>433</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(114, 159, 207);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="QL_deletar">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>20</y>
+        <width>76</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(114, 159, 207);</string>
+      </property>
+      <property name="text">
+       <string>DELETAR</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pB_deletar">
+      <property name="geometry">
+       <rect>
+        <x>208</x>
+        <y>360</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 79, 73);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>DELETAR</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="QL_categoria">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>66</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Categoria:</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="categoria3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>351</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(162, 214, 255);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>'Pisos e revestimentos'</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>'Portas e janelas'</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>'Tintas'</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>'Banheiro'</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>'Cozinha'</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="pB_voltar">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>360</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>VOLTAR</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Nome:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lE_nome2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>351</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(162, 214, 255);</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

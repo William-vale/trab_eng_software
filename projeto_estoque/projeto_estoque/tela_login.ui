@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>398</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(114, 159, 207);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLineEdit" name="lE_password">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>170</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(162, 214, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lE_user">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>130</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(162, 214, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="l_usuario">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>130</y>
+         <width>60</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(114, 159, 207);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>USUÀRIO:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="l_senha">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>170</y>
+         <width>45</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(114, 159, 207);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>SENHA:</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pB_login">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>250</y>
+         <width>75</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(85, 85, 255);</string>
+       </property>
+       <property name="text">
+        <string>LOGIN</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="l_bemvindo">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>30</y>
+         <width>96</width>
+         <height>19</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>BEM-VINDO</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>398</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

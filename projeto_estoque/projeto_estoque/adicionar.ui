@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>403</width>
+    <height>427</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(114, 159, 207);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="l_Adicionar">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>20</y>
+        <width>97</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(114, 159, 207);</string>
+      </property>
+      <property name="text">
+       <string>ADICIONAR</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_nome">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>44</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(114, 159, 207);</string>
+      </property>
+      <property name="text">
+       <string>Nome:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lE_nome">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>351</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(162, 214, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_codigo">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>130</y>
+        <width>48</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(114, 159, 207);</string>
+      </property>
+      <property name="text">
+       <string>Código:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lE_codigo">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>351</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(162, 214, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_categoria">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>240</y>
+        <width>66</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(114, 159, 207);</string>
+      </property>
+      <property name="text">
+       <string>Categoria:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_pCompra">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>145</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(255,255,,255)</string>
+      </property>
+      <property name="text">
+       <string>Preço de compra (R$)</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_pVenda">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>300</y>
+        <width>136</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(114, 159, 207);</string>
+      </property>
+      <property name="text">
+       <string>Preço de venda (R$)</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_Descrca">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>330</y>
+        <width>67</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(114, 159, 207);</string>
+      </property>
+      <property name="text">
+       <string>Descrição:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pB_cadastrar">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>372</y>
+        <width>112</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 127);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>CADASTRAR</string>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cB_categoria">
+      <property name="geometry">
+       <rect>
+        <x>164</x>
+        <y>240</y>
+        <width>172</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(162, 214, 255);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Pisos e revestimentos</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Portas e janelas</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Tintas</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Banheiro</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Cozinha</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="lE_PCompra">
+      <property name="geometry">
+       <rect>
+        <x>164</x>
+        <y>270</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(162, 214, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lE_PVenda">
+      <property name="geometry">
+       <rect>
+        <x>164</x>
+        <y>300</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(162, 214, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lE_descricao">
+      <property name="geometry">
+       <rect>
+        <x>164</x>
+        <y>330</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(162, 214, 255);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pB_voltar">
+      <property name="geometry">
+       <rect>
+        <x>83</x>
+        <y>372</y>
+        <width>101</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>VOLTAR</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lE_quantidade">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>200</y>
+        <width>351</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(162, 214, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>79</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Quantidade:</string>
+      </property>
+     </widget>
+     <zorder>l_Adicionar</zorder>
+     <zorder>l_nome</zorder>
+     <zorder>l_codigo</zorder>
+     <zorder>lE_nome</zorder>
+     <zorder>lE_codigo</zorder>
+     <zorder>l_categoria</zorder>
+     <zorder>l_pCompra</zorder>
+     <zorder>l_pVenda</zorder>
+     <zorder>l_Descrca</zorder>
+     <zorder>pB_cadastrar</zorder>
+     <zorder>cB_categoria</zorder>
+     <zorder>lE_PCompra</zorder>
+     <zorder>lE_PVenda</zorder>
+     <zorder>lE_descricao</zorder>
+     <zorder>pB_voltar</zorder>
+     <zorder>lE_quantidade</zorder>
+     <zorder>label</zorder>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
