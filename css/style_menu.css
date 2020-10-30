@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.aba-principal {
+    display:flex;
+    width: 100%;
+    display: inline-block;
+}
+
+.aba-principal .aba {
+    height: 80px;
+    margin: 10px 16px;
+    margin-bottom: 0px;
+    background-color: #262626;
+    padding-top: 6px;
+    padding-left: 3px;
+    border-radius: 10px;
+}
+
+.aba-principal .aba p {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0 16px;
+    font-size: 3rem;
+    font-family: 'Turret Road', cursive;
+    font-weight: bold;
+    color: rgb(226, 40, 40);
+    float: left;
+}
+
+.aba-principal .aba .cadastrar {
+    display: block;
+    float: right;
+    padding-right: 20px;
+}
+
+
+.aba-principal .aba .cadastrar .container img {    
+    height: 50px;
+    padding-top: 10px;
+}
+
+.aba-principal .aba .cadastrar .container img:hover {    
+    
+}
+
+.aba-principal .aba .cadastrar .container p {
+    font-weight: bold;
+    font-size: 20px;    
+    color: white;
+    padding-top: 20px;
+
+}
+
+.menu {
+    background-color: #E22828;
+    margin: 0px 16px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.menu .menu-section {
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;   
+}
+
+.menu .menu-section ul {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.menu .menu-section ul li {
+    margin-top: 11px;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 12px;   
+    font-family: 'Turret Road', cursive;
+    font-weight: bold;
+    color: black;
+}
+
+.menu .menu-section ul li:hover {
+    color:white;
+}
+
+#servicos-menu {
+    width: 100%;
+}
+
+#servicos-menu .servicos {
+    margin: 0 16px;
+    height: 312px;
+}
+
+#servicos-menu .servicos h1 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#servicos-menu .servicos .amostras {
+    margin-top: 20px;
+}
+
+#servicos-menu .servicos h2 {
+    /* display: inline-block; */
+
+}
+
+#servicos-menu .servicos 
+.amostra1,
+.amostra2,
+.amostra3,
+.amostra4 {
+    display: inline-block;
+    border: 1px solid black;
+    margin-right:0.8%;
+    margin-left: 0.8%;
+    padding: 0 20px 10px;
+    text-align: center;
+}
+
+#servicos-menu .servicos .amostra1 img {
+    max-width: 200px;
+    align-items: center;
+}
+#servicos-menu .servicos .amostra2 img {
+    max-width: 200px;
+}
+#servicos-menu .servicos .amostra3 img {
+    max-width: 200px;
+}
+#servicos-menu .servicos .amostra4 img {
+    max-width: 200px;
+}
+
+.page-footer {
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(85, 84, 84); */
+}
